@@ -7,7 +7,9 @@
     "keygen": "ts-node ./keygen.ts",
     "airdrop": "ts-node ./airdrop.ts",
     "transfer": "ts-node ./transfer.ts",
-    "enroll": "ts-node ./enroll.ts"
+    "enroll": "ts-node ./enroll.ts",
+    "base58ToWallet": "ts-node ./base58ToWallet",
+    "walletToBase58": "ts-node ./walletToBase58"
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.30.1",
@@ -18,6 +20,7 @@
     "typescript": "^5.7.2"
   },
   "devDependencies": {
+    "@types/prompt-sync": "^4.2.3",
     "ts-node": "^10.9.2"
   }
 }
